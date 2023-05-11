@@ -70,11 +70,20 @@ a {
   background: var(--color-primaryrimaryrimaryrimaryrimaryrimary);
   border-radius: 0.3rem;
   transition: var(--transition);
+  padding: 0.9rem 2rem;
+    background: var(--color-primary);
   }
   
 .btn:hover{
     background: var(--color-secondary);
-  
+  color: var(--color-gray-600) ;
 }
   
+.btn.lg{
+padding: 1.2rem 2rem;
+font-size: 1.1rem;
+}
  
+.btr.lg{
+  font-size: 0.9rem;
+}

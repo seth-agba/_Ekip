@@ -50,3 +50,11 @@
 .main__header-right:hover .main__header-circle {
   filter: blur(0.1rem);
 }
+section{
+  margin-top: 10rem;
+}
+.section__head{
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
