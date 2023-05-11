@@ -10,7 +10,7 @@ const Programs = () => {
     <section className="programs">
       <div className="container programs__container">
         <SectionHeader icon={<GiImperialCrown />} title="Programmes" />
-      </div>
+    
       <div className="programs__wrapper">
         {programs.map(({ id, icon, path, info, title }) => {
           return (
@@ -26,6 +26,7 @@ const Programs = () => {
           );
         })}
       </div>
+        </div>
     </section>
   );
 };
